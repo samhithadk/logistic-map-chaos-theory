@@ -5,13 +5,21 @@ It reproduces the **bifurcation diagram**, illustrating the transition from stab
 
 ---
 
+## Authors
+
+Madeline Renee Boss
+Samhitha Devi Kunadharaju
+University of Texas at Austin
+(Course: CS 323E – Elements of Scientific Computing)
+
+---
 ## Overview
 
 The logistic map is defined as:
 
-$$x_{n+1} = \mu x_n (1 - x_n)$$
+`x_{n+1} = μ * x_n * (1 - x_n)`
 
-where \( 0 < x_n < 1 \) and \( \mu \) is a control parameter representing the growth rate.
+where `0 < x_n < 1` and `μ` is the control parameter representing the growth rate.
 
 We simulate this map for \( 2.4 \le \mu \le 4.0 \) and visualize the long-term dynamics.  
 The results confirm the theoretical period-doubling route to chaos originally described by May (1976).
@@ -37,7 +45,7 @@ The plot shows how the system evolves as μ increases — from a single stable p
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 Install dependencies:
 ```bash
