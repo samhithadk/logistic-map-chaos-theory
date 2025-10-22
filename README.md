@@ -17,9 +17,7 @@ Course: *CS 323E – Elements of Scientific Computing*
 
 The logistic map is defined as:
 
-<p align="center">
-  <img src="https://latex.codecogs.com/svg.image?x_{n+1}=\mu%20x_n(1-x_n)" alt="x_{n+1} = μ x_n (1 - x_n)" />
-</p>
+`x_{n+1} = μ * x_n * (1 - x_n)`
 
 where `0 < x_n < 1` and `μ` is the control parameter representing the growth rate.
 
